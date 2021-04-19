@@ -10,6 +10,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'navPage',
+      component: navPage
+    },
+    {
+      path: '/home',
       name: 'Home',
       component: Home
     },
@@ -17,11 +22,6 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
-    },
-    {
-      path: '/navPage',
-      name: 'navPage',
-      component: navPage
     },
     {
       path: '/404',

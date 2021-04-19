@@ -10,6 +10,7 @@ import * as dict from './modules/dict'
 import * as config from './modules/config'
 import * as log from './modules/log'
 import * as loginlog from './modules/loginlog'
+import * as report from './modules/report'
 
 // 默认全部导出
 export default {
@@ -21,5 +22,6 @@ export default {
   dict,
   config,
   log,
-  loginlog
+  loginlog,
+  report
 }

@@ -12,7 +12,8 @@
     "restore": "Restore",
     "backupRestore": "Backup Restore",
     "versionName": "Version",
-    "exit": "Exit"
+    "exit": "Exit",
+    "productionReport": "Production Report"
   },
   "action": {
     "operation": "Operation",

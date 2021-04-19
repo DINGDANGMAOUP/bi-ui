@@ -17,13 +17,13 @@ export default {
   name: 'Home',
   methods: {
     testAxios () {
-      axios.get('http://localhost:8080').then(res => { alert(res.data) })
+      axios.get('http://localhost:8081').then(res => { alert(res.data) })
     },
     getUser () {
-      axios.get('http://localhost:8080/user').then(res => { alert(JSON.stringify(res.data)) })
+      this.$api.menu.findMenuTree().then(res => { alert(JSON.stringify(res.data)) })
     },
     getMenu () {
-      axios.get('http://localhost:8080/menu').then(res => { alert(JSON.stringify(res.data)) })
+      this.$api.user.findPage().then(res => { alert(JSON.stringify(res.data)) })
     },
     changeLanguage (lang) {
       // eslint-disable-next-line no-unused-expressions
