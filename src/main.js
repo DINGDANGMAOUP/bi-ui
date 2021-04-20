@@ -9,19 +9,19 @@ import api from './http'
 import global from './utils/global'
 import 'font-awesome/css/font-awesome.min.css'
 import i18n from './i18n'
-import VueParticles from 'vue-particles'
+import store from './store'
 // 全局引入mock
 require('@/mock/index.js')
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 Vue.use(api)
-Vue.use(VueParticles)
 Vue.prototype.global = global
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   i18n,
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
