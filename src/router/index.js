@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Login from '@/views/Login/index'
+import Login from '@/views/Login'
 import Home from '@/views/Home'
 import NotFound from '@/views/404'
-import navPage from '@/views/NavPage'
+import NavPage from '@/views/NavPage'
 Vue.use(Router)
 
 export default new Router({
@@ -11,7 +11,7 @@ export default new Router({
     {
       path: '/',
       name: 'navPage',
-      component: navPage
+      component: NavPage
     },
     {
       path: '/home',

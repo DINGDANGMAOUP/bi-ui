@@ -40,10 +40,6 @@
         <li class="fa fa-bell"></li>
         访问次数
       </div>
-      <div class="other-operation-item">
-        <li class="fa fa-undo"></li>
-        {{$t("common.backupRestore")}}
-      </div>
     </div>
     <div class="personal-footer" @click="logout">
       <li class="fa fa-sign-out"></li>
