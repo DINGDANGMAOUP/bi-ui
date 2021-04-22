@@ -1,6 +1,6 @@
 # bi-ui
 
-> A Vue.js project
+> A Vue.js project   elementui 版
 
 ## Build Setup
 
